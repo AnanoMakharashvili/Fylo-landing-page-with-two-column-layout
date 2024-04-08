@@ -106,17 +106,13 @@
 .paragraphe-style {
   width: 320px;
   height: 63px;
-  font-weight: 400;
   line-height: 21px;
-  text-align: center;
   color: #615f7e;
 }
 .paragraphe-two-style {
   width: 320px;
   height: 63px;
-  font-weight: 400;
   line-height: 21px;
-  text-align: center;
   color: #615f7e;
 }
 .arrow-style {
@@ -210,7 +206,6 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
-  text-align: center;
   color: #ffffff;
 }
 .box-one-style {
@@ -283,4 +278,166 @@
   align-items: center;
   gap: 17px;
   margin-top: -3px;
+}
+.fylo-desktop-style {
+  display: none;
+}
+.fylo-two-desktop-style {
+  display: none;
+}
+.desktop-image-style {
+  display: none;
+}
+.desktop-ilustration-style {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .fylo-logo-style {
+    display: none;
+  }
+  .fylo-desktop-style {
+    display: block;
+  }
+  .fylo-two-desktop-style {
+    display: block;
+  }
+  .fylo-two-desktop {
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+  }
+  .list-style {
+    font-size: 16px;
+  }
+  .image-document-style {
+    display: none;
+  }
+  .desktop-image-style {
+    display: block;
+  }
+  .all-your-files-style {
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+  .fylo-secure-style {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 19px;
+  }
+  .secure-location-style {
+    width: 627px;
+    height: 120px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+  }
+  .fylo-stores-style {
+    width: 585px;
+    height: 72px;
+    font-family: Open Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.53125px;
+    text-align: left;
+  }
+  .email-get-started-style {
+    display: flex;
+    align-items: center;
+  }
+  .form-box input {
+    width: 320px;
+  }
+  .button-style {
+    width: 200px;
+  }
+  .mobile-ilustration-style {
+    display: none;
+  }
+  .desktop-ilustration-style {
+    display: block;
+  }
+  .all-your-files-two-style {
+    flex-direction: row-reverse;
+  }
+  .second-paragraph-style {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+  }
+  .stay-style {
+    width: 648px;
+    height: 47px;
+    font-size: 40px;
+  }
+  .paragraphe-style {
+    width: 529px;
+    height: 48px;
+  }
+  .paragraphe-two-style {
+    width: 529px;
+    height: 48px;
+  }
+  .arrow-work-style {
+    width: 166px;
+    height: 27px;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+  }
+  .get-style {
+    width: 347px;
+    height: 48px;
+    font-size: 32px;
+    display: flex;
+    align-self: self-start;
+  }
+  .paragraphe-fourth-style {
+    width: 533px;
+    height: 72px;
+    line-height: 24px;
+    font-size: 16px;
+  }
+  .form-one-box input {
+    width: 480px;
+    height: 48px;
+  }
+  .button-one-style {
+    width: 200px;
+    height: 48px;
+    background-color: #6c9bff;
+  }
+  .get-ready-style {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .access-today-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .for-free-style {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-top: 63px;
+  }
+  .about-us-style {
+    height: 300px;
+  }
+  .about-us-info {
+    margin-top: 100px;
+    margin-left: -92px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .call-email-style {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
 }
