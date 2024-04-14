@@ -7,37 +7,44 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: 0;
+  box-sizing: border-box;
 }
+
 .container {
   display: flex;
   flex-direction: column;
   padding: 10px;
 }
+
 .little-container-style {
   display: flex;
   flex-direction: column;
   padding: 23px;
   background-color: #f8f8fe;
 }
+
 .fylo-style.fylo-style {
   display: flex;
   justify-content: space-around;
   margin-top: 12px;
 }
+
 .fylo-logo-style {
   width: 50px;
   height: 18px;
 }
+
 .box {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .form-box {
   padding: 10px;
   border-radius: 0.63px;
 }
+
 .form-box input {
   font-size: 18px;
   color: #c2c2c2;
@@ -46,16 +53,19 @@
   width: 304px;
   font-size: 12px;
 }
+
 .list-style {
   font-size: 12px;
   font-family: Raleway;
 }
+
 .all-your-files-style {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
 }
+
 .image-document-style {
   width: 100%;
 }
@@ -92,6 +102,7 @@
   font-size: 14px;
   font-family: Raleway;
   font-weight: 700;
+  border: none;
 }
 .all-your-files-two-style {
   display: flex;
@@ -99,6 +110,13 @@
   justify-content: center;
   gap: 12px;
 }
+.second-paragraph-style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
 .stay-style {
   display: flex;
   justify-content: center;
@@ -118,6 +136,7 @@
 .arrow-style {
   width: 12px;
   height: 12px;
+  margin-top: 4px;
 }
 .fylo-arrow-style {
   display: flex;
@@ -141,7 +160,7 @@
   width: 280px;
   height: 169.1px;
   background-color: #ffffff;
-  margin-left: 23px;
+  padding: 20px;
 }
 .paragraphe-three-style {
   width: 241.3px;
@@ -158,6 +177,7 @@
   display: flex;
   gap: 11px;
   margin-left: 17px;
+  margin-top: 24px;
 }
 .burton-info-style {
   display: flex;
@@ -195,6 +215,14 @@
   align-items: center;
   gap: 24px;
 }
+
+.access-today-style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
 .get-style {
   color: white;
   margin-top: 54px;
@@ -226,15 +254,15 @@
   height: 32px;
   background-color: #2f65f8;
   color: white;
-  margin-top: -18px;
+  margin-top: 5px;
+  border: none;
 }
 .about-us-style {
   background-color: #07043b;
-  width: 100%;
-  height: 590px;
   display: flex;
   flex-direction: column;
   padding: 51px;
+  margin-top: -10px;
 }
 .fylo-icons-style {
   display: flex;
@@ -252,6 +280,12 @@
   flex-direction: column;
   gap: 61px;
 }
+.call-email-style {
+  gap: 59px;
+  display: flex;
+  flex-direction: column;
+}
+
 .call-style {
   display: flex;
   margin-top: 16px;
@@ -291,7 +325,13 @@
 .desktop-ilustration-style {
   display: none;
 }
+.bg-curve-desktop-style {
+  display: none;
+}
 @media (min-width: 1024px) {
+  .little-container-style {
+    background-color: white;
+  }
   .fylo-logo-style {
     display: none;
   }
@@ -347,26 +387,40 @@
     display: flex;
     align-items: center;
   }
+  .get-started-button:hover .get-button {
+    background-color: #6c9bff;
+  }
   .form-box input {
     width: 320px;
   }
   .button-style {
     width: 200px;
+    cursor: pointer;
   }
   .mobile-ilustration-style {
     display: none;
   }
+  .bg-curve-desktop-style {
+    display: block;
+  }
   .desktop-ilustration-style {
     display: block;
   }
+  .bg-curve-mobile-style {
+    display: none;
+    margin-top: 100px;
+  }
   .all-your-files-two-style {
     flex-direction: row-reverse;
+    background-color: #f8f8fe;
+    margin-left: -150px;
+    padding: 20px;
   }
   .second-paragraph-style {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 15px;
+    gap: 45px;
   }
   .stay-style {
     width: 648px;
@@ -376,17 +430,42 @@
   .paragraphe-style {
     width: 529px;
     height: 48px;
+    margin-left: -67px;
   }
   .paragraphe-two-style {
     width: 529px;
     height: 48px;
+    margin-left: -67;
   }
+
   .arrow-work-style {
     width: 166px;
     height: 27px;
     display: flex;
     flex-direction: column;
     gap: 11px;
+    cursor: pointer;
+  }
+  .arrow-work-style:hover .fylo-button {
+    color: #71dfcc;
+  }
+  .arrow-work-style:hover .arrow-button {
+    color: #71dfcc;
+  }
+  .arr-info-style {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    align-self: self-start;
+  }
+  .fylo-works-style {
+    font-size: 16px;
+  }
+  .line-style:hover .line-button {
+    color: #71dfcc;
+  }
+  .line-style {
+    width: 146px;
   }
   .get-style {
     width: 347px;
@@ -405,14 +484,18 @@
     width: 480px;
     height: 48px;
   }
+  .get-started-two-button:hover .started-button {
+    background-color: #6c9bff;
+  }
   .button-one-style {
     width: 200px;
     height: 48px;
-    background-color: #6c9bff;
+    cursor: pointer;
   }
   .get-ready-style {
     flex-direction: row;
     justify-content: space-around;
+    margin-top: -21px;
   }
   .access-today-style {
     display: flex;
@@ -425,8 +508,11 @@
     gap: 35px;
     margin-top: 63px;
   }
+  .about-us-button:hover .about-us-button {
+    color: #6c9bff;
+  }
   .about-us-style {
-    height: 300px;
+    margin-top: -10px;
   }
   .about-us-info {
     margin-top: 100px;
@@ -438,6 +524,16 @@
   .call-email-style {
     display: flex;
     flex-direction: column;
-    gap: 2px;
+    margin-top: 31px;
+    margin-left: 36px;
+  }
+  .jobs-style {
+    cursor: pointer;
+  }
+  .contact-us-style {
+    cursor: pointer;
+  }
+  .icons-style {
+    cursor: pointer;
   }
 }
