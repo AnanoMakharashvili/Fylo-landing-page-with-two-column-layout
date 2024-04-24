@@ -48,21 +48,19 @@
               family, and co-workers.
             </p>
             <div class="email-get-started-style">
-              <div class="box">
-                <form action="#">
-                  <div class="form-box">
-                    <input
-                      type="text"
-                      name="EmailAddress"
-                      placeholder="Enter your email…"
-                    />
-                  </div>
-                </form>
-              </div>
-              <div class="get-started-button">
-                <button class="button-style get-button">Get Started</button>
-              </div>
+              <input
+                id="email"
+                type="text"
+                name="EmailAddress"
+                placeholder="Enter your email…"
+              />
+              <button id="get-started-button" class="button-style get-button">
+                Get Started
+              </button>
             </div>
+            <span id="error-message" class="error-message">
+              Please check you email
+            </span>
           </div>
         </div>
         <img
@@ -149,19 +147,15 @@
           </p>
         </div>
         <div class="for-free-style">
-          <div class="box-one-style">
-            <form action="#">
-              <div class="form-one-box">
-                <input
-                  type="text"
-                  name="EmailAddress"
-                  placeholder="email@example.com"
-                />
-              </div>
-            </form>
-          </div>
+          <input
+            id="email-adress"
+            type="text"
+            name="EmailAddress"
+            placeholder="email@example.com"
+          />
+          <span id="error-email">Please check your email</span>
           <div class="get-started-two-button">
-            <button class="button-one-style started-button">
+            <button id="button-one" class="button-one-style started-button">
               Get Started For Free
             </button>
           </div>
@@ -206,5 +200,6 @@
         </div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>

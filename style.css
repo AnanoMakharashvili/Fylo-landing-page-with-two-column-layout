@@ -69,6 +69,7 @@
 .image-document-style {
   width: 100%;
 }
+
 .secure-location-style {
   font-weight: 700;
   font-family: Open Sans;
@@ -80,6 +81,7 @@
   text-align: center;
   margin-left: 15px;
 }
+
 .fylo-stores-style {
   width: 296px;
   height: 84px;
@@ -90,10 +92,12 @@
   text-align: center;
   margin-left: 16px;
 }
+
 .get-started-button {
   display: flex;
   justify-content: center;
 }
+
 .button-style {
   background-color: #2f65f8;
   width: 304px;
@@ -104,12 +108,24 @@
   font-weight: 700;
   border: none;
 }
+.email-get-started-style {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+#email {
+  width: 304px;
+  height: 40px;
+}
+
 .all-your-files-two-style {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 12px;
 }
+
 .second-paragraph-style {
   display: flex;
   flex-direction: column;
@@ -121,28 +137,33 @@
   display: flex;
   justify-content: center;
 }
+
 .paragraphe-style {
   width: 320px;
   height: 63px;
   line-height: 21px;
   color: #615f7e;
 }
+
 .paragraphe-two-style {
   width: 320px;
   height: 63px;
   line-height: 21px;
   color: #615f7e;
 }
+
 .arrow-style {
   width: 12px;
   height: 12px;
   margin-top: 4px;
 }
+
 .fylo-arrow-style {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
+
 .fylo-works-style {
   font-size: 12px;
   color: #3da08f;
@@ -151,17 +172,20 @@
   display: flex;
   justify-content: center;
 }
+
 .horizontal-line {
   width: 130px;
   height: 1px;
   background: #3da08f;
 }
+
 .info-style {
   width: 280px;
   height: 169.1px;
   background-color: #ffffff;
   padding: 20px;
 }
+
 .paragraphe-three-style {
   width: 241.3px;
   height: 73px;
@@ -173,16 +197,19 @@
   color: #07043b;
   padding: 18px;
 }
+
 .kyle-info-style {
   display: flex;
   gap: 11px;
   margin-left: 17px;
   margin-top: 24px;
 }
+
 .burton-info-style {
   display: flex;
   flex-direction: column;
 }
+
 .info-one-style {
   width: 58px;
   height: 12px;
@@ -192,6 +219,7 @@
   text-align: left;
   color: #07043b;
 }
+
 .info-two-style {
   width: 73px;
   height: 12px;
@@ -201,11 +229,13 @@
   text-align: left;
   color: #07043b;
 }
+
 .image-kyle-burton-style {
   width: 24px;
   height: 24px;
   border-radius: 13px;
 }
+
 .get-ready-style {
   background-color: #575988;
   width: 100%;
@@ -227,6 +257,7 @@
   color: white;
   margin-top: 54px;
 }
+
 .paragraphe-fourth-style {
   width: 280px;
   height: 84px;
@@ -236,19 +267,28 @@
   line-height: 21px;
   color: #ffffff;
 }
+
 .box-one-style {
   display: flex;
   justify-content: center;
 }
+
 .form-one-box input {
   width: 240px;
   height: 32px;
   color: #c0c0c0;
 }
+
 .get-started-two-button {
   display: flex;
   justify-content: center;
 }
+
+#email-adress {
+  width: 240px;
+  height: 32px;
+}
+
 .button-one-style {
   width: 240px;
   height: 32px;
@@ -257,6 +297,7 @@
   margin-top: 5px;
   border: none;
 }
+
 .about-us-style {
   background-color: #07043b;
   display: flex;
@@ -264,15 +305,18 @@
   padding: 51px;
   margin-top: -10px;
 }
+
 .fylo-icons-style {
   display: flex;
   flex-direction: row;
   gap: 8px;
 }
+
 .fylo-logo-two-style {
   width: 59px;
   height: 30px;
 }
+
 .about-us-info {
   color: white;
   display: flex;
@@ -280,6 +324,7 @@
   flex-direction: column;
   gap: 61px;
 }
+
 .call-email-style {
   gap: 59px;
   display: flex;
@@ -291,21 +336,25 @@
   margin-top: 16px;
   gap: 12px;
 }
+
 .email-style {
   display: flex;
   margin-top: -49px;
   gap: 11px;
 }
+
 .jobs-style {
   display: flex;
   flex-direction: column;
   gap: 11px;
 }
+
 .contact-us-style {
   display: flex;
   flex-direction: column;
   gap: 11px;
 }
+
 .icons-style {
   display: flex;
   justify-content: center;
@@ -313,58 +362,78 @@
   gap: 17px;
   margin-top: -3px;
 }
+
 .fylo-desktop-style {
   display: none;
 }
+
 .fylo-two-desktop-style {
   display: none;
 }
+
 .desktop-image-style {
   display: none;
 }
+
 .desktop-ilustration-style {
   display: none;
 }
+
 .bg-curve-desktop-style {
   display: none;
 }
+
+#error-email {
+  display: none;
+}
+
 @media (min-width: 1024px) {
   .little-container-style {
     background-color: white;
   }
+
   .fylo-logo-style {
     display: none;
   }
+
   .fylo-desktop-style {
     display: block;
   }
+
   .fylo-two-desktop-style {
     display: block;
   }
+
   .fylo-two-desktop {
     display: flex;
     flex-direction: row;
     gap: 13px;
   }
+
   .list-style {
     font-size: 16px;
   }
+
   .image-document-style {
     display: none;
   }
+
   .desktop-image-style {
     display: block;
   }
+
   .all-your-files-style {
     flex-direction: row-reverse;
     justify-content: center;
   }
+
   .fylo-secure-style {
     display: flex;
     justify-content: center;
     flex-direction: column;
     gap: 19px;
   }
+
   .secure-location-style {
     width: 627px;
     height: 120px;
@@ -373,6 +442,7 @@
     line-height: 60px;
     text-align: left;
   }
+
   .fylo-stores-style {
     width: 585px;
     height: 72px;
@@ -381,52 +451,65 @@
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.53125px;
-    text-align: left;
   }
+
+  #email {
+    width: 320px;
+    height: 45px;
+  }
+
   .email-get-started-style {
     display: flex;
     align-items: center;
+    gap: 16px;
   }
+
   .get-started-button:hover .get-button {
     background-color: #6c9bff;
   }
-  .form-box input {
-    width: 320px;
-  }
+
   .button-style {
     width: 200px;
     cursor: pointer;
   }
+
   .mobile-ilustration-style {
     display: none;
   }
+
   .bg-curve-desktop-style {
     display: block;
   }
+
   .desktop-ilustration-style {
     display: block;
   }
+
   .bg-curve-mobile-style {
     display: none;
     margin-top: 100px;
   }
+
   .all-your-files-two-style {
     flex-direction: row-reverse;
     background-color: #f8f8fe;
     margin-left: -150px;
     padding: 20px;
   }
+
   .second-paragraph-style {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 45px;
   }
+
   .stay-style {
     width: 648px;
     height: 47px;
     font-size: 40px;
   }
+
   .paragraphe-style {
     width: 529px;
     height: 48px;
@@ -446,27 +529,34 @@
     gap: 11px;
     cursor: pointer;
   }
+
   .arrow-work-style:hover .fylo-button {
     color: #71dfcc;
   }
+
   .arrow-work-style:hover .arrow-button {
     color: #71dfcc;
   }
+
   .arr-info-style {
     display: flex;
     flex-direction: column;
     gap: 18px;
     align-self: self-start;
   }
+
   .fylo-works-style {
     font-size: 16px;
   }
+
   .line-style:hover .line-button {
     color: #71dfcc;
   }
+
   .line-style {
     width: 146px;
   }
+
   .get-style {
     width: 347px;
     height: 48px;
@@ -474,46 +564,70 @@
     display: flex;
     align-self: self-start;
   }
+
   .paragraphe-fourth-style {
     width: 533px;
     height: 72px;
     line-height: 24px;
     font-size: 16px;
   }
+
   .form-one-box input {
     width: 480px;
     height: 48px;
   }
+
+  #email-adress {
+    width: 480px;
+    height: 48px;
+  }
+
   .get-started-two-button:hover .started-button {
     background-color: #6c9bff;
   }
+
   .button-one-style {
     width: 200px;
     height: 48px;
     cursor: pointer;
   }
+
   .get-ready-style {
     flex-direction: row;
     justify-content: space-around;
     margin-top: -21px;
   }
+
   .access-today-style {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
+  #error-email {
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    text-align: left;
+    display: "none";
+  }
+
   .for-free-style {
     display: flex;
     flex-direction: column;
-    gap: 35px;
     margin-top: 63px;
+    gap: 4px;
   }
+
   .about-us-button:hover .about-us-button {
     color: #6c9bff;
   }
+
   .about-us-style {
     margin-top: -10px;
   }
+
   .about-us-info {
     margin-top: 100px;
     margin-left: -92px;
@@ -521,19 +635,32 @@
     flex-direction: row;
     justify-content: space-around;
   }
+
   .call-email-style {
     display: flex;
     flex-direction: column;
     margin-top: 31px;
     margin-left: 36px;
   }
+
   .jobs-style {
     cursor: pointer;
   }
+
   .contact-us-style {
     cursor: pointer;
   }
+
   .icons-style {
     cursor: pointer;
+  }
+
+  .error-message {
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.34px;
+    color: #ef4877;
+    display: none;
   }
 }
